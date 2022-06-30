@@ -318,6 +318,7 @@ background-color: var(--button-background);
   height: 92px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
+  justify-content: center;
   align-items: center;
 }
 .clients li + li {
@@ -459,13 +460,13 @@ margin-top: 9px;
   margin-top: 0;
   margin-bottom: 0;
 }
-.portfolio-list >img {
+.portfolio-list img {
   display: block;
 }
 .border-box {
-  /* display: block;
+  display: block;
   border: 1px solid #EEEEEE;
-  border-top: transparent; */
+  border-top: transparent;
   padding: 20px 24px;
 }
 .portfolio-list a:hover,
@@ -475,6 +476,6 @@ margin-top: 9px;
 }
 .portfolio-list-box {
   display: block;
-  border: 1px solid #EEEEEE;
+  /* border: 1px solid #EEEEEE; */
   max-width: 370px;
 }
